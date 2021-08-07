@@ -9,17 +9,131 @@
   font-family: 'Helvetica Neue', Arial, sans-serif;
 }
 
+
 .header {
   height: 100vh;
   min-height: 600px;
   max-height: 756px;
   /* выше установили ограничения для секции */
+  margin: 0 auto;
+  padding: 0;
+  background-color: #f2f2f2;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+}
+
+.page__header {
+  margin-bottom: 100px;
+}
+
+.logo_place_header {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 30px;
+  left: 64px;
+  max-width: 183px;
+  max-height: 32px;
+}
+
+.header__title {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  position: absolute;
+  left: 64px;
+  align-self: center;
+  max-width: 730px;
+  font-size: 102px;
+  line-height: 96px;
+  z-index: 2;
+  box-sizing: border-box;
+}
+
+.header__subtitle {
+  position: absolute;
+  bottom: 30px;
+  left: 64px;
+  width: 388px;
+  line-height: 25px;
+  font-size: 18px;
+  z-index: 2;
+}
+
+.header__subtitle_link {
+  text-decoration: none;
+  color: #2f80ed;
+}
+
+.header__main-illustration {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 765px;
+  height: 608px;
+  z-index: 1;
 }
 
 /* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
+  position: absolute;
+  top: 64px;
+  right: 0;
+  background-color: #2f80ed;
+}
+
+.two_columns {
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.two-columns__brief {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
+  color: #2f80ed;
+}
+
+.two-columns__span-accent {
+  font-weight: bold;
+}
+
+.two-columns__main-text {
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+}
+
+.digits {
+  margin: 0;
+  padding: 0;
+}
+
+.feynman {
+  margin: 0;
+  padding: 0;
+  height: 890px;
+  background-color: #f2f2f2;
+  position: relative;
+}
+
+.feynman__title {
+  margin: 0;
+  padding: 0;
+  max-width: 648px;
+  text-align: center;
+}
+
+.feynman__image {
+  position: absolute;
+  bottom: 0;
+  left: 0;
 }
 
 /* и элемента с модификатором вида ключ-значение */
