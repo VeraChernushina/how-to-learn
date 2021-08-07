@@ -77,7 +77,6 @@
   z-index: 1;
 }
 
-/* ниже мы привели пример двух селекторов, чтобы вы вспомнили запись элемента */
 .header__square-pic {
   height: 568px;
   width: 568px;
@@ -87,6 +86,18 @@
   background-color: #2f80ed;
 }
 
+.description {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+
+.page__description {
+  margin-bottom: 100px;
+}
+
 .two_columns {
   margin: 0;
   padding: 0;
@@ -94,25 +105,68 @@
 }
 
 .two-columns__brief {
+  display: inline-block;
   line-height: 1.2;
   font-size: 18px;
   font-weight: normal;
   color: #2f80ed;
+  width: 175px;
+}
+
+.two-columns__main-text {
+  display: inline-block;
+  flex-direction: column;
+  line-height: 34px;
+  font-size: 24px;
+  font-weight: normal;
+  width: 80%;
+  min-width: 784px;
 }
 
 .two-columns__span-accent {
   font-weight: bold;
 }
 
-.two-columns__main-text {
+.digits {
+  margin: 100px auto;
+}
+
+.section-title {
+  width: 60%;
+  line-height: 1.15;
+  font-size: 60px;
+  font-weight: bold;
+}
+
+.section-subtitle {
+  width: 60%;
   line-height: 34px;
   font-size: 24px;
   font-weight: normal;
 }
 
-.digits {
-  margin: 0;
-  padding: 0;
+.table {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 1100px;
+}
+
+.table__cell {
+  width: 250px;
+}
+
+.table__heading {
+  line-height: 1.15;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.table__text {
+  line-height: 1.2;
+  font-size: 18px;
+  font-weight: normal;
 }
 
 .feynman {
@@ -126,8 +180,35 @@
 .feynman__title {
   margin: 0;
   padding: 0;
-  max-width: 648px;
-  text-align: center;
+  position: absolute;
+  top: 100px;
+  z-index: 1;
+  width: 648px;
+  line-height: 1.15;
+  font-size: 120px;
+  font-weight: bold;
+}
+
+.feynman__subtitle {
+  display: flex;
+  margin: 0 auto;
+  position: absolute;
+  z-index: 1;
+  line-height: 51px;
+  font-size: 36px;
+  font-weight: normal;
+  white-space: nowrap;
+}
+
+.feynman__link {
+  line-height: 51px;
+  font-weight: 36px;
+  font-weight: normal;
+  color:#2f80ed;
+  text-decoration: none;
+  position: absolute;
+  top: 50%;
+  right: 48px;
 }
 
 .feynman__image {
@@ -136,10 +217,18 @@
   left: 0;
 }
 
+.kaufman {
+  display: flex;
+}
+
 /* и элемента с модификатором вида ключ-значение */
 .table__cell_theme_dark {
   width: 200px;
   color: white;
   margin-right: 0;
   margin-top: 80px;
+}
+
+.footer {
+  background-color: #1f1f1f;
 }
