@@ -38,7 +38,7 @@
   position: absolute;
   top: 30px;
   left: 64px;
-  background-image: url("/images/logo_place_header.svg");
+  background-image: url("../images/logo_place_header.svg");
 }
 
 .header__title {
@@ -325,7 +325,7 @@
 
 .logo_place_footer {
   display: flex;
-  background-image: url("/images/logo_place_footer.svg");
+  background-image: url("../images/logo_place_footer.svg");
   background-size: contain;
   background-repeat: no-repeat;
   width: 183px;
