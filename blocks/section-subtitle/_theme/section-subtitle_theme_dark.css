@@ -1,0 +1,7 @@
+.section-subtitle_theme_dark {
+  color: white;
+  display: flex;
+  margin: 0 auto;
+  z-index: 1;
+  justify-content: center;
+}

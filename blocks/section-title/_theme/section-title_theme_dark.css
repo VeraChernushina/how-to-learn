@@ -1,0 +1,8 @@
+.section-title_theme_dark {
+  color: white;
+  display: flex;
+  margin: 90px auto 20px;
+  white-space: nowrap;
+  z-index: 1;
+  justify-content: center;
+}
