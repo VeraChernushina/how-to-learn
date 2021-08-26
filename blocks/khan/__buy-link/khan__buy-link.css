@@ -7,4 +7,10 @@
   text-decoration: none;
   color: #2f80ed;
   white-space: nowrap;
+  opacity: 1;
+  transition-timing-function: ease-in;
+}
+
+.khan__buy-link:hover {
+  opacity: 0.5;
 }

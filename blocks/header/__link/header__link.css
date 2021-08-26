@@ -3,4 +3,10 @@
   padding: 0;
   text-decoration: none;
   color: #2f80ed;
+  opacity: 1;
+  transition-timing-function: ease-in;
+}
+
+.header__link:hover {
+  opacity: 0.5;
 }
