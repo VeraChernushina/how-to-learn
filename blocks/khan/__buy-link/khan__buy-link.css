@@ -9,6 +9,7 @@
   white-space: nowrap;
   opacity: 1;
   transition-timing-function: ease-in;
+  align-self: start;
 }
 
 .khan__buy-link:hover {
