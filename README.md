@@ -15,4 +15,4 @@
 - дописать вендорные префиксы
 - добавить форму для обратной связи
 
-## [Ссылка на проект →](https://verachernushina.github.io/how-to-learn/index)
+## [Ссылка на проект →](https://verachernushina.github.io/how-to-learn/index.html)
