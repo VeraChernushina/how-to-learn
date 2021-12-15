@@ -1,5 +1,5 @@
 # Научиться учиться
-
+![](https://github.com/VeraChernushina/how-to-learn/blob/main/images/how-to-learn.gif?raw=true)
 ## О проекте
 Одностраничный сайт для [Яндекс.Практикум](https://practicum.yandex.ru/) о разных методах обучения.
 В работе применяются:
